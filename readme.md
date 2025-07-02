@@ -56,3 +56,21 @@ This project covers key web development concepts, implemented in Go and JavaScri
 >`Error Handling`: Logging server startup and request errors with `log` package.
 
 >`Dynamic File Serving`: Serving new static files without server restarts using `http.FileServer`
+
+### Client-Side Web Development
+>`Single Page Application`: Using JavaScript to load content dynamically without full page reloads.
+
+>`Fetch API`: Fetching HTML and JSON content from the server using `fetch` (in `script.js`).
+
+>`DOM Manipulation`: Updating page content by modifying `<div id="content">` with `innerHTML`
+
+>`Event Handling`: Preventing default link behaviour with `event.preventDefault()` to enable client-side navigation.
+
+>`History API`: Updating the browser's URL with `history.pushState` to reflect the current page eg(`/static/about.html`)
+
+>`Content Type Handling`: Detecting and processing `application/json` vs `text/html` responses for `/hello` and static files
+
+>`Error Handling`: Displaying user-friendly error messages for failed `fetch` requests
+
+### License
+MIT license.
